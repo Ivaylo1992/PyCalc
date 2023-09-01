@@ -1,2 +1,2 @@
 # PyCalc
-PyCalc is a user-friendly Python-Calculator that supports basic arithmetic operations and more. This repository provides a simple yet powerful calculator tool, perfect for learning or quick calculations.
+This is a simple to use and made for studying purposes calculator. It's made to be used online in order to help its users with some simple equations regarding their needs.

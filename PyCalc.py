@@ -39,19 +39,20 @@ buttons = [
     ('4', 2, 0), ('5', 2, 1), ('6', 2, 2), ('*', 2, 3),
     ('1', 3, 0), ('2', 3, 1), ('3', 3, 2), ('-', 3, 3),
     ('0', 4, 0), ('.', 4, 1), ('=', 4, 2), ('+', 4, 3),
+    ('(', 5, 0), (')', 5, 1), ('**', 5, 3),
 ]
 
 for (text, row, col) in buttons:
     button = tk.Button(root, text=text, font=('Arial', 14))
     if text.isnumeric() or text == '.':
         button.config(command=lambda t=text: on_digit_click(t))
-    elif text in '+-*/':
+    elif text in '+-*/**()':
         button.config(command=lambda t=text: on_operation_click(t))
     else:
         button.config(command=on_equal_click)
     button.grid(row=row, column=col, padx=5, pady=5, ipadx=10, ipady=10)
 
 clear_button = tk.Button(root, text='C', font=('Arial', 14), command=on_clear_click)
-clear_button.grid(row=5, column=0, columnspan=4, padx=5, pady=5, ipadx=10, ipady=10)
+clear_button.grid(row=5, column=1, columnspan=4, padx=5, pady=5, ipadx=10, ipady=10)
 
 root.mainloop()

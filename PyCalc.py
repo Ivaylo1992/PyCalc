@@ -34,6 +34,7 @@ display_var = tk.StringVar()
 display_entry = tk.Entry(root, textvariable=display_var, font=('Arial', 18), justify='right', bd=8)
 display_entry.grid(row=0, column=0, columnspan=4, ipadx=10, ipady=10)
 
+
 buttons = [
     ('7', 1, 0), ('8', 1, 1), ('9', 1, 2), ('/', 1, 3),
     ('4', 2, 0), ('5', 2, 1), ('6', 2, 2), ('*', 2, 3),

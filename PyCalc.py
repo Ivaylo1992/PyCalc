@@ -52,7 +52,6 @@ for (text, row, col) in buttons:
         button.config(command=on_equal_click)
     button.grid(row=row, column=col, padx=5, pady=5, ipadx=10, ipady=10)
 
-
 clear_button = tk.Button(root, text='C', font=('Arial', 14), command=on_clear_click)
 clear_button.grid(row=5, column=1, columnspan=4, padx=5, pady=5, ipadx=10, ipady=10)
 

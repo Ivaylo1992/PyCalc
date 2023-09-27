@@ -3,4 +3,4 @@ This is a simple to use and made for studying purposes GUI application calculato
 For the interface is used tkinter library.
 It performs arithmetic operations on numbers as addition, multiplication, dividing, subtracting etc.
 
-![Screenshot 2023-09-01 063259](https://github.com/Ivaylo1992/PyCalc/assets/142958598/16d160b2-09b6-491b-bc10-7c3eda0fff15)
+![Screenshot 2023-09-27 060026](https://github.com/Ivaylo1992/PyCalc/assets/142958598/037cd2f5-7b0f-4bbf-beb6-c80e22eab9b0)

@@ -42,6 +42,7 @@ buttons = [
     ('(', 5, 0), (')', 5, 1), ('**', 5, 3)
 ]
 
+
 for (text, row, col) in buttons:
     button = tk.Button(root, text=text, font=('Arial', 14))
     if text.isnumeric() or text == '.':

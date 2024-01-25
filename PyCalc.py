@@ -5,7 +5,7 @@ from tkinter import messagebox
 def on_digit_click(digit):
     current = display_var.get()
     display_var.set(current + str(digit))
-    
+
 
 def on_clear_click():
     display_var.set("")
